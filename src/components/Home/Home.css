@@ -1,0 +1,205 @@
+.home-main-contanier {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  /* align-items: center; */
+  /* margin-left: 10%; */
+  /* position: relative; */
+  /* border: 1px solid black; */
+}
+.home-side-bar {
+  width: 15%;
+  border-right: 1px solid grey;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /* position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0; */
+  /* padding: 10px; */
+}
+/* sidebar list */
+.home-side-listnames {
+  /* width: 150px; */
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid black; */
+}
+.home-side-listnames > :nth-child(1) {
+  width: 20px;
+  /* border: 1px solid red; */
+}
+.home-side-listnames > :nth-child(2) {
+  /* border: 1px solid green; */
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+/* home-Stories-container */
+.home-middle-bar {
+  width: 100%;
+  /* border: 1px solid black; */
+  /* height: 100vh; */
+}
+.login-main-post-div {
+  width: 100%;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.login-middle-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 100px;
+  /* border: 1px solid black; */
+}
+.login-stroies-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* border: 1px solid red; */
+  align-items: center;
+  /* width: 50%; */
+  margin-top: 20px;
+  /* overflow: scroll; */
+  gap: 2rem;
+  /* flex-wrap: wrap; */
+}
+.login-middle-div-container {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid green; */
+}
+.login-middle-post {
+  /* width: 300px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+.login-likes-container {
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.login-likes-div-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.login-likes-comments {
+  display: flex;
+  flex-direction: column;
+}
+.login-more-data {
+  display: flex;
+  flex-direction: column;
+}
+.login-add-comment {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
+.login-more-button {
+  width: 150px;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: flex-start;
+  margin-top: 15px;
+  color: gray;
+}
+.login-add-comment input {
+  width: 100%;
+  outline: none;
+  height: 30px;
+}
+/* home-middle-bar */
+
+/* home- end side container */
+
+.home-end-bar {
+  /* width: 20%; */
+  /* border: 1px solid black; */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  /* padding: 10px; */
+}
+.home-div-con-div {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 25px;
+}
+.home-end-bar-div {
+  /* border: 1px solid black; */
+  width: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.login-endside-acc {
+  display: flex;
+  flex-direction: column;
+}
+.login-suggest-seeall {
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid red; */
+  margin-top: 20px;
+}
+.login-followers-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+.log-floowes-con {
+  display: flex;
+  flex-direction: column;
+}
+.login-endside-follow-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+}
+/* ::-webkit-scrollbar {
+  display: none;
+} */

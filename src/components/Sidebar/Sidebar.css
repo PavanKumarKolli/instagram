@@ -1,0 +1,36 @@
+/* Sidebar.css */
+.side__bar__main__card {
+  display: flex;
+}
+.sidebar {
+  width: 15%;
+  height: 100vh;
+  /* background-color: #f7f7f7; */
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  /* left: 0; */
+  overflow-y: auto;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-item {
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.sidebar-item:hover {
+  background-color: #e0e0e0;
+}
+
+.sidebar__right__side {
+  width: 85%;
+  /* background-color: red; */
+  position: relative;
+  left: 11%;
+  top: 0;
+}

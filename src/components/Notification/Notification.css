@@ -1,0 +1,63 @@
+.notifiction-scroll-container {
+  width: 400px;
+  height: 100vh;
+  /* border: 1px solid red; */
+  overflow-y: scroll;
+  padding: 4px;
+}
+
+.notification-img-container {
+  width: 60px;
+  height: 50px;
+  border-radius: 50%;
+  /* border: 1px solid red; */
+  overflow: hidden;
+  margin-right: 16px;
+  gap: 1rem;
+}
+.notification-main-container {
+  width: 380px;
+  height: 100vh;
+  /* border: 1px solid black; */
+}
+.notification-follow-btn {
+  width: 100px;
+  height: 25px;
+  border-radius: 7px;
+  border: none;
+  /* background-color: rgba(7, 156, 255, 0.904); */
+  background: rgba(7, 94, 255, 0.904);
+  font-size: 16px;
+  margin-left: 28px;
+  color: #fff;
+}
+.notification-center-container {
+  width: 350px;
+  height: 70px;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  line-height: 26px;
+}
+.hr {
+  width: 100%;
+}
+/* last week container */
+
+.not-last-week-cont {
+  width: 60px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid red;
+  overflow: hidden;
+  margin-right: 16px;
+  gap: 1rem;
+}
+.not-lastweek-notification {
+  width: 350px;
+  height: 70px;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  line-height: 26px;
+}
